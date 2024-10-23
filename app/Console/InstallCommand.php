@@ -6,6 +6,7 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Modules\Core\Providers\CoreServiceProvider;
 use Modules\Core\Providers\InstallServiceProvider;
+use Nwidart\Modules\Laravel\LaravelFileRepository;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 use function Laravel\Prompts\progress;
@@ -47,6 +48,7 @@ class InstallCommand extends Command
         $progress->advance();
 
         // Enable the module after installation
+        app(LaravelFileRepository::class)->resetModules();
         $this->call("module:enable", ["module" => $this->moduleName]);
         $progress->finish();
 

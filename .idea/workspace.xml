@@ -5,121 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae0feaa-9e9b-4ba5-8bd1-4e139ba81782" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Builder/TableBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Builder/TableColumn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/InstallCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DTOs/AbstractDTO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DTOs/DtoInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Enums/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Enums/ActivationType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Enums/Datatable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Enums/NotificationType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Enums/Permissions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Enums/ResponseMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Events/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/ErrorException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/InvalidCredentialsException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/MediaUploadException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Filters/Filters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Helpers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Helpers/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Export.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Import.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/ApiLocalization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Network/HttpHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ImportRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/View/Admin/Composers/LayoutComposer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Interfaces/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/ExportJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/ImportJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/RespondWithJsonErrorJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/RespondWithJsonJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/RespondWithViewJob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Listeners/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Scopes/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Notifications/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Observers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/CoreServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/InstallServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Rules/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Transformers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Actions/DeleteButton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Actions/EditButton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Actions/SubmitButton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/DateTimeField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/EmailField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/ExportModal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/NumberField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/PasswordField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/SelectField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/TextField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/UploadField.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Forms/UploadModal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Layouts/Footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Layouts/Header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/Layouts/Sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/AdminSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/PermissionsSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lang/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/actions/delete-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/actions/edit-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/actions/submit-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/forms/date-time-field.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/forms/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/forms/number-field.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/forms/password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/forms/select-field.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/forms/text-field.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/forms/upload.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/layouts/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/layouts/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/layouts/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/layouts/toolbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/modals/export.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/modals/import.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/export.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/import.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/core.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/InstallCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/InstallCommand.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/Cellar/php@7.4/7.4.33_6/bin/php">
     <include_path>
@@ -158,20 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/ahmedhassan/Desktop/Projects/Modules/core/resources/views",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ahmedhassan/Desktop/Projects/Modules/core&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views" />
@@ -199,7 +93,9 @@
       <workItem from="1729605134935" duration="2747000" />
       <workItem from="1729672025813" duration="103000" />
       <workItem from="1729673082773" duration="22000" />
-      <workItem from="1729678731081" duration="539000" />
+      <workItem from="1729678731081" duration="937000" />
+      <workItem from="1729680296418" duration="889000" />
+      <workItem from="1729684152920" duration="13000" />
     </task>
     <servers />
   </component>
