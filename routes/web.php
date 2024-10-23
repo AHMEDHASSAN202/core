@@ -15,6 +15,6 @@ use Modules\Core\Http\Controllers\DashboardController;
 */
 
 Route::group([], function () {
-    Route::resource('dashboard', DashboardController::class)->names('dashboard');
+    Route::get('dashboard', DashboardController::class."@index")->name('dashboard.index');
     Route::get("admin", DashboardController::class."@index")->name("admin.index");
 });
