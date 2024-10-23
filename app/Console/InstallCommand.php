@@ -55,7 +55,7 @@ class InstallCommand extends Command
         $progress->finish();
 
         // Notify user of successful installation
-        info('Package installed successfully.');
+        info("Package installed successfully! To complete the installation, please remember to run 'composer dump-autoload'");
     }
 
     /**
