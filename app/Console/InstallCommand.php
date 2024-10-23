@@ -12,8 +12,6 @@ use Symfony\Component\Console\Input\InputArgument;
 use function Laravel\Prompts\progress;
 use function Laravel\Prompts\text;
 use function Laravel\Prompts\info;
-use function Modules\Auth\Console\app;
-use function Modules\Auth\Console\base_path;
 
 class InstallCommand extends Command
 {
