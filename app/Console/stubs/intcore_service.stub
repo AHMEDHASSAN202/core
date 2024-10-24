@@ -1,0 +1,39 @@
+<?php
+
+namespace $CLASS_NAMESPACE$;
+
+class $CLASS$
+{
+    private $$_CLASS$Repository;
+
+//    public function __construct(\$REPOSITORY_NAMESPACE$\$_CLASS$RepositoryInterface $$_CLASS$Repository)
+//    {
+//        $this->$_CLASS$Repository = $$_CLASS$Repository;
+//    }
+
+    public function get(\$REQUEST_NAMESPACE$\IndexRequest $request)
+    {
+        return [];
+        //return $this->$_CLASS$Repository->get($request);
+    }
+
+    public function find($id)
+    {
+        return $this->$_CLASS$Repository->find($id);
+    }
+
+    public function delete(\$REQUEST_NAMESPACE$\DeleteRequest $request, $id)
+    {
+        return $this->$_CLASS$Repository->delete($request, $id);
+    }
+
+    public function create(\$REQUEST_NAMESPACE$\CreateRequest $request)
+    {
+        return $this->$_CLASS$Repository->create($request);
+    }
+
+    public function update(\$REQUEST_NAMESPACE$\UpdateRequest $request, $id)
+    {
+        return $this->$_CLASS$Repository->update($request, $id);
+    }
+}

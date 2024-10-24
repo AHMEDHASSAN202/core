@@ -19,7 +19,7 @@ class InstallCommand extends Command
     private string $mainProvider = CoreServiceProvider::class; // Main provider class for the module
 
     // Command signature and description
-    protected $signature = 'intcore-core:install';
+    protected $signature = 'intcore:install';
     protected $description = 'Install Package Command';
 
     public function __construct()

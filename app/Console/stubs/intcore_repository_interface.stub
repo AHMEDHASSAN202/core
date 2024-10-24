@@ -1,0 +1,13 @@
+<?php
+
+namespace $CLASS_NAMESPACE$;
+
+
+interface $CLASS$
+{
+    public function get(\$REQUEST_NAMESPACE$\IndexRequest $request);
+    public function find($id);
+    public function create(\$REQUEST_NAMESPACE$\CreateRequest $request);
+    public function update(\$REQUEST_NAMESPACE$\UpdateRequest $request, $id);
+    public function delete(\$REQUEST_NAMESPACE$\DeleteRequest $request, $id);
+}

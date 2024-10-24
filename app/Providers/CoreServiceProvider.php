@@ -2,8 +2,14 @@
 
 namespace Modules\Core\Providers;
 
-use Modules\Core\Http\Livewire\Export;
-use Modules\Core\Http\Livewire\Import;
+use Modules\Core\Console\MakeViewCommand;
+use Modules\Core\View\Composers\SidebarLinksComposer;
+use Modules\Core\Console\CRUDCommand;
+use Modules\Core\Console\MakeControllerCommand;
+use Modules\Core\Console\MakeRepositoryCommand;
+use Modules\Core\Console\MakeRepositoryInterfaceCommand;
+use Modules\Core\Console\MakeServiceCommand;
+use Modules\Core\Console\MakeSidebarLinkCommand;
 use Modules\Core\View\Components\Actions\DeleteButton;
 use Modules\Core\View\Components\Actions\EditButton;
 use Modules\Core\View\Components\Actions\SubmitButton;
@@ -41,6 +47,7 @@ class CoreServiceProvider extends ServiceProvider
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();
+        $this->registerComposers();
         $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
         $this->registerViewComponents();
     }
@@ -59,7 +66,15 @@ class CoreServiceProvider extends ServiceProvider
      */
     protected function registerCommands(): void
     {
-        // $this->commands([]);
+         $this->commands([
+             MakeViewCommand::class,
+             MakeSidebarLinkCommand::class,
+             MakeControllerCommand::class,
+             MakeServiceCommand::class,
+             MakeRepositoryInterfaceCommand::class,
+             MakeRepositoryCommand::class,
+             CRUDCommand::class
+         ]);
     }
 
     /**
@@ -158,5 +173,10 @@ class CoreServiceProvider extends ServiceProvider
 //        // TODO; remove it
 //        Livewire::component('export-component', Export::class);
 //        Livewire::component('import-component', Import::class);
+    }
+
+    private function registerComposers()
+    {
+        \view()->composer("core::components.layouts.sidebar", SidebarLinksComposer::class);
     }
 }
